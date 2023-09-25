@@ -1,0 +1,65 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.App .quiz,
+.App .menu,
+.App .endScreen {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .menu,
+.App .quiz,
+.App .endScreen {
+  color: white;
+}
+.App .menu button,
+.App .quiz button,
+.App .endScreen button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.App .quiz .options,
+.App .quiz .Qname {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.App .quiz .option {
+  transition: 0.3s;
+}
+.App .quiz .option:hover {
+  background-color: aquamarine;
+}
+.App .quiz .option:focus {
+  background-color: aqua;
+}
+.App .movingBtn,
+.App .restartBtn {
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+}
+.App .movingBtn:hover,
+.App .restartBtn:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=App.css.map */
