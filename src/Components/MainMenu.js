@@ -4,7 +4,7 @@ import "../Styling/App.css";
 
 export default function MainMenu() {
 
-    const { state, setState } = useContext(QuizContext);
+    const { setState } = useContext(QuizContext);
     return (
         <div className='menu'>
             <button onClick={() => { setState('quiz') }}>Start Quiz</button>

@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import { useState, } from "react";
 import "./Styling/App.css";
 import MainMenu from "./Components/MainMenu";
 import Quiz from "./Components/Quiz";
